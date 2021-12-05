@@ -1,5 +1,4 @@
 import "./Card.css";
-;
 
 const Card = (props) => {
     // card space is a must
