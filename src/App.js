@@ -2,6 +2,7 @@ import Expenses from './components/Expense/Expenses';
 import './components/Expense/Expenses.css';
 import NewExpense from './components/NewExpense/NewExpense';
 
+
 const App = () => {
 
   const expenses = [
@@ -53,8 +54,10 @@ const App = () => {
     <div>
       <NewExpense onAddExpense={addExpenseHandler}/>
 
-    <div className="expenses">
-      {
+  
+
+  <div >
+      {/* {
         expenses.map(({
           title,
           amount,
@@ -67,10 +70,13 @@ const App = () => {
           date={date} 
           />
         })
-      }
-     
+      } */}
+     <Expenses expenses={expenses}/>
     </div>
-    </div>
+</div>
+
+
+   
   );
 }
 
