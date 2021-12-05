@@ -1,5 +1,7 @@
 import Expenses from './components/Expense/Expenses';
 import './components/Expense/Expenses.css';
+import NewExpense from './components/NewExpense/NewExpense';
+
 const App = () => {
 
   const expenses = [
@@ -42,6 +44,8 @@ const App = () => {
 
   ]
   return (
+    <div>
+      <NewExpense />
     <div className="expenses">
       {
         expenses.map(({
@@ -58,6 +62,7 @@ const App = () => {
         })
       }
      
+    </div>
     </div>
   );
 }
