@@ -15,6 +15,7 @@ setTitle('Updated')
         }
 
     return (
+        <li>
         <Card className="expense-item">
             {/* below is props children */}
             <ExpenseDate date={date} />
@@ -24,7 +25,7 @@ setTitle('Updated')
             </div>
             <button onClick={clickHandler}>Change Title</button>
         </Card>
-      
+        </li>
     );
 }
 
