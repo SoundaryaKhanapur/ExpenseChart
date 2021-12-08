@@ -23,7 +23,7 @@ setTitle('Updated')
                 <h2>{changetitle}</h2>
                 <div className="expense-item__price">{amount}</div>
             </div>
-            <button onClick={clickHandler}>Change Title</button>
+            {/* <button onClick={clickHandler}>Change Title</button> */}
         </Card>
         </li>
     );
