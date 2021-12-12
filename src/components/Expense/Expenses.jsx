@@ -7,6 +7,7 @@ import ExpensesChart from './ExpensesChart';
 
 const Expenses = ({expenses}) => {
 
+   
     const [filteredYear, setFilteredYear] = useState('2020')
 
     const filterChangeHandler = selectedYear => {
@@ -28,9 +29,9 @@ const Expenses = ({expenses}) => {
         />
 
         <ExpensesChart expenses={filteredExpenses}/>
+
       <ExpensesList expenses={filteredExpenses}/>
-      
-      
+
         </Card>
     )
 }

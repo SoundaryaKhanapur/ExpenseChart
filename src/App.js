@@ -26,7 +26,7 @@ const App = () => {
 
   const addExpenseHandler = expense => {
     // setExpenses([expense, ...expenses])
-console.log(expense.title)
+
 
     setExpenses((prevExpenses) => {
       return [expense, ...prevExpenses];
