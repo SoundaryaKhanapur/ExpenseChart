@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ExpenseChart/static/css/main.85e15e6f.chunk.css",
+    "main.css": "/ExpenseChart/static/css/main.eb131d25.chunk.css",
     "main.js": "/ExpenseChart/static/js/main.f392ced4.chunk.js",
     "main.js.map": "/ExpenseChart/static/js/main.f392ced4.chunk.js.map",
     "runtime-main.js": "/ExpenseChart/static/js/runtime-main.52e04cc3.js",
@@ -10,13 +10,13 @@
     "static/js/3.0fea1809.chunk.js": "/ExpenseChart/static/js/3.0fea1809.chunk.js",
     "static/js/3.0fea1809.chunk.js.map": "/ExpenseChart/static/js/3.0fea1809.chunk.js.map",
     "index.html": "/ExpenseChart/index.html",
-    "static/css/main.85e15e6f.chunk.css.map": "/ExpenseChart/static/css/main.85e15e6f.chunk.css.map",
+    "static/css/main.eb131d25.chunk.css.map": "/ExpenseChart/static/css/main.eb131d25.chunk.css.map",
     "static/js/2.2d774021.chunk.js.LICENSE.txt": "/ExpenseChart/static/js/2.2d774021.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.52e04cc3.js",
     "static/js/2.2d774021.chunk.js",
-    "static/css/main.85e15e6f.chunk.css",
+    "static/css/main.eb131d25.chunk.css",
     "static/js/main.f392ced4.chunk.js"
   ]
 }
