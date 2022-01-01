@@ -22,3 +22,9 @@
   font-weight: bold;
   border-radius: 6px;
 }
+
+@media (max-width: 640px) {
+  .expenses-filter {
+    padding: 0 0.5rem;
+  }
+}

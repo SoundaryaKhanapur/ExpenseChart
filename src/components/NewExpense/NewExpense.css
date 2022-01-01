@@ -37,3 +37,13 @@
 .new-expense button.alternative:active {
   background-color: #ddb3f8;
 }
+
+@media (max-width: 640px) {
+  .new-expense {
+    max-width: 75%;
+  }
+
+  .new-expense button {
+    padding: 1rem;
+  }
+}

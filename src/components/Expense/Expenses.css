@@ -6,3 +6,9 @@
   max-width: 95%;
   box-shadow: 0 1px 8px #34a0a4;
 }
+
+@media (max-width: 640px) {
+  .expenses {
+    max-width: 75%;
+  }
+}
